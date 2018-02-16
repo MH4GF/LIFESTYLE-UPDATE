@@ -1,0 +1,435 @@
+iframe.iframe-controls--phone-mobile {
+	display: none;
+}
+
+iframe.tmblr-iframe--app-cta-button.tmblr-iframe--loaded {
+	display: none;
+}
+
+.tmblr-iframe {
+  display:none!important;
+}
+
+* {
+	font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro, "ＭＳ Ｐゴシック", sans-serif;
+	margin: 0px;
+	padding: 0px;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+　　-moz-text-size-adjust: 100%;
+　　-ms-text-size-adjust: 100%;
+　　-o-text-size-adjust: 100%;
+　　-text-size-adjust: 100%;
+}
+
+.mainvisual-wrapper, .heading, .box-title, .box-info, .mainvisual-about h1 {
+  text-align: center;
+}
+
+.header-left h1 a, nav.navigation a, nav.navigation i, .mainvisual-about h1 {
+  color: white;
+  text-decoration: none;
+  text-shadow:1px 1px 1px #90A4AE;
+}
+
+.header-left h1 a:hover , nav.navigation a:hover , .btn-about:hover , .btn-social:hover , nav.social-links li a:hover {
+
+  text-shadow: none;
+}
+
+body {
+  margin: 0px;
+}
+
+.mainvisual-wrapper {
+  height:100vh;
+  background:url(https://giflog.net/wp-content/uploads/2018/02/mainvisual-min.jpg) no-repeat top center;
+  background-size:cover;
+}
+
+.mainvisual-wrapper h1 {
+  padding: 0 1em;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size:75px;
+  letter-spacing:5px;
+  position:relative;
+  top:48%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header-left {
+  position: absolute;
+  left: 0;
+  padding: 30px 4%;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+nav.navigation {
+  position: absolute;
+  right: 0;
+  padding: 30px 5%;
+  color: white;
+}
+
+nav ul{
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 1em;
+}
+
+.sp {
+	display: none;
+}
+
+section.about {
+  max-width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 7%;
+}
+
+div.about-wrapper {
+  padding: 0 1em;
+}
+
+h2.title{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.section-works {
+  background-color:#f4f4f4;
+}
+
+.box-works {
+  position: relative;
+}
+
+.box-works a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-about {
+  display: inline-block;
+  padding:10px 40px;
+  color: #B90B0B;
+  text-decoration: none;
+  border: 1px solid #B90B0B;
+}
+
+.btn-about:hover{
+  background-color: #B90B0B;
+  color: #fff;
+  text-decoration: none;
+  border-color: #B90B0B;
+}
+
+.btn-wrapper {
+  display: inline-block;
+  margin:40px 0 50px;
+}
+
+.works-wrapper {
+  max-width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 7%;
+}
+
+.heading {
+  padding-top:60px;
+  padding-bottom:30px;
+  color:#5f5d60;
+}
+
+.w-grid {
+  display: inline-block;
+  width: 32%;
+  padding:0 1em;
+}
+
+.box-works {
+  background-color: #fff;
+  margin-bottom: 2.5em;
+  box-shadow: 0 0 3px gray;
+
+}
+
+.box-image {
+  margin: 0;
+}
+
+.box-image img {
+    width: 100%;
+    height: auto;
+}
+.box-title {
+  margin: 0.6em 2em 0;
+  /* margin-top: 0.6em;
+  margin-bottom: 0; */
+}
+
+
+
+.box-info {
+  margin:0;
+}
+
+.box-info small, .box-info p{
+  color: #b3b3b3;
+  font-size:0.7rem;
+}
+
+.box-description {
+  padding:2em;
+  margin:0;
+  word-wrap: break-word;
+}
+.l-container {
+  /* max-width: 1180px; */
+  text-align: center;
+  padding: 3% 7%;
+	margin: auto;
+}
+
+nav.social-links li a {
+  color: black;
+  font-size: 20px;
+}
+
+p.copyright {
+  margin: 10px;
+  font-size: 12px;
+  color: #7F7F7F;
+}
+
+
+/* aboutpage */
+
+.mainvisual-about {
+  height:350px;
+  background:url(https://giflog.net/wp-content/uploads/2018/02/DSCF9258-1.jpg) no-repeat top center;
+  background-size:cover;
+}
+
+.mainvisual-about h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size:30px;
+  letter-spacing:15px;
+  position:relative;
+  top:52%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.about-article {
+  max-width: 820px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-social-wrapper {
+  text-align: center;
+}
+
+.btn-wrapper2 {
+  display: inline-block;
+  margin:10px;
+}
+.btn-social {
+  display: inline-block;
+  margin: 0.8em 0.5em;
+  padding:10px 40px;
+  color: #B90B0B;
+  text-decoration: none;
+  border: 1px solid #B90B0B;
+}
+
+.btn-social:hover{
+  background-color: #B90B0B;
+  color: #fff;
+  text-decoration: none;
+  border-color: #B90B0B;
+}
+
+h3 {
+  padding: 0.5em;
+  background: #f9f9f9;
+  border-left: solid 2px #B90B0B;
+}
+
+article a {
+	text-decoration: none;
+	color: gray;
+}
+article a:hover {
+	color:#B90B0B;
+  transition: all 140ms ease-in-out;
+}
+
+/* workspage */
+.youtube {
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0px;
+	position: relative;
+}
+
+.youtube iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.category-item {
+	color: #b3b3b3;
+	font-size: 0.7rem;
+	margin-top: 5em;
+}
+
+.article-text {
+	margin:10%;
+}
+.image img {
+	width: 100%;
+	height:auto;
+	margin-bottom: 2em;
+}
+
+
+/* Tablet */
+@media (max-width:1000px) {
+
+  .mainvisual-wrapper h1 {
+    font-size: 7vw;
+  }
+
+  .w-grid {
+    width:48%;
+  }
+
+  .about-article {
+    padding: 0 7%;
+  }
+  h2#about {
+    font-size:3.3em!important;
+  }
+}
+
+@media (max-width:770px) {
+  h2#about {
+    font-size: 2.8em!important;
+  }
+}
+
+/* SmartPhone */
+@media (max-width:670px) {
+
+  .mainvisual-about {
+    height:200px;
+  }
+
+	.navigation {
+		position: fixed!important;
+		right: 0;
+		-webkit-transform:translateX(250px);
+		transform:translateX(250px);
+		-webkit-transition:ease .5s;
+		transition:ease .5s;
+		width: 250px;
+		height: 100vh;
+		text-align: center;
+		display: table;
+		background-color: rgba(0,0,0,0.9);
+		z-index: 1;
+	}
+
+	.navigation ul {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.navigation li a {
+		display: block;
+		padding: .5em;
+	}
+	.sp {
+		display: block;
+	}
+
+	.side-menu-btn {
+		color: #fff;
+		position: fixed;
+		padding: 20px 4%;
+		right: 0;
+		font-size: 1.5em;
+		z-index: 4;
+		cursor: pointer;
+		-webkit-transition:ease .3s;
+		transition:ease .3s;
+	}
+
+.red {
+	color: #B90B0B;
+}
+
+
+	.side-open {
+		-webkit-transform:translateX(0);
+		transform:translateX(0);
+	}
+
+  .mainvisual-wrapper h1 {
+    font-size: 10vw;
+  }
+
+  h2#index {
+    font-size: 10vw!important;
+  }
+
+  h2#about {
+    font-size: 6.5vw!important;
+    }
+
+  span.title {
+    font-size: 8vw!important;
+  }
+
+  .w-grid {
+    width:100%;
+  }
+  .btn-about {
+    width: 80vw;
+    text-align: center;
+  }
+  .btn-social {
+    width: 80vw;
+  }
+
+	.article-text {
+		margin:10% 0;
+	}
+}
